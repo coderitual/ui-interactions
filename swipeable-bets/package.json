@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/coderitual/ui-interactions#readme",
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
