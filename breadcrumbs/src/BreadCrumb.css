@@ -1,0 +1,29 @@
+.breadcrumb {
+  display: flex;
+}
+
+.breadcrumb__inner {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breadcrumb__inner .breadcrumb-item--collapsed{
+  flex: none;
+}
+
+.breadcrumb-item {
+  text-overflow: ellipsis;
+}
+
+.breadcrumb-item--collapsed > .breadcrumb-item__text {
+  display: none;
+}
+
+.breadcrumb-item__ellipsis {
+  display: none;
+}
+
+.breadcrumb-item--collapsed > .breadcrumb-item__ellipsis {
+  display: initial;
+}
